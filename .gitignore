@@ -1,0 +1,4 @@
+generated/*
+!generated/README.md
+/cmake-build-debug/
+/.idea/

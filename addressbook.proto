@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+// The package name is used to prevent naming conflicts between different proto files.
+// In C++, the package will be used as a namespace.
+package tutorial;
+
+import "person.proto";
+
+message AddressBook {
+  repeated Person people = 1;
+}
