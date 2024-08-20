@@ -80,3 +80,5 @@ The advantages of this approach include:
 This downsides of this approach include:
 1. Generated protobuf files are put into the source tree, rather than the build tree.
 2. Protobuf files are generated outside of cmake. If the `.proto` files change, `protoc` needs to be run again.
+
+The followup [grpc_with_vcpkg](https://github.com/gerbillinae/grpc_with_vcpkg) gets around these downsides.
